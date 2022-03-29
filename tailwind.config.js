@@ -1,7 +1,11 @@
 module.exports = {
   content: ['./src/**/*.tsx', 'index.html'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Poppins'],
+      },
+    },
   },
   plugins: [],
 };
